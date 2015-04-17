@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		311B631A1AE06F9E00283E45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 311B63191AE06F9E00283E45 /* main.m */; };
+		311B631D1AE06F9E00283E45 /* JKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 311B631C1AE06F9E00283E45 /* JKAppDelegate.m */; };
+		311B63251AE06F9E00283E45 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 311B63241AE06F9E00283E45 /* Images.xcassets */; };
+		311B63281AE06F9E00283E45 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 311B63261AE06F9E00283E45 /* LaunchScreen.xib */; };
+		311B63341AE06F9E00283E45 /* NSDate_SemanticTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 311B63331AE06F9E00283E45 /* NSDate_SemanticTests.m */; };
+		311B63401AE071C000283E45 /* JKRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 311B633E1AE071C000283E45 /* JKRootViewController.m */; };
+		311B63411AE071C000283E45 /* JKRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 311B633F1AE071C000283E45 /* JKRootViewController.xib */; };
+		311B63441AE0727100283E45 /* NSDate+Semantic.m in Sources */ = {isa = PBXBuildFile; fileRef = 311B63431AE0727100283E45 /* NSDate+Semantic.m */; };
+		311B63451AE0727100283E45 /* NSDate+Semantic.m in Sources */ = {isa = PBXBuildFile; fileRef = 311B63431AE0727100283E45 /* NSDate+Semantic.m */; };
+		311B63461AE0728600283E45 /* JKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 311B631C1AE06F9E00283E45 /* JKAppDelegate.m */; };
+		311B63471AE0728900283E45 /* JKRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 311B633E1AE071C000283E45 /* JKRootViewController.m */; };
+		3972F4876298B2A7581379DA /* libPods-NSDate-SemanticTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0BC70D37DEFDABF93379B4F /* libPods-NSDate-SemanticTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		311B632E1AE06F9E00283E45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 311B630C1AE06F9E00283E45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 311B63131AE06F9E00283E45;
+			remoteInfo = "NSDate-Semantic";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13DE8EE6CAAA5A8964458EF8 /* Pods-NSDate-SemanticTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSDate-SemanticTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NSDate-SemanticTests/Pods-NSDate-SemanticTests.release.xcconfig"; sourceTree = "<group>"; };
+		311B63141AE06F9E00283E45 /* NSDate-Semantic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSDate-Semantic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		311B63181AE06F9E00283E45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		311B63191AE06F9E00283E45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		311B631B1AE06F9E00283E45 /* JKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKAppDelegate.h; sourceTree = "<group>"; };
+		311B631C1AE06F9E00283E45 /* JKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKAppDelegate.m; sourceTree = "<group>"; };
+		311B63241AE06F9E00283E45 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		311B63271AE06F9E00283E45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		311B632D1AE06F9E00283E45 /* NSDate-SemanticTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSDate-SemanticTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		311B63321AE06F9E00283E45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		311B63331AE06F9E00283E45 /* NSDate_SemanticTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSDate_SemanticTests.m; sourceTree = "<group>"; };
+		311B633D1AE071C000283E45 /* JKRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRootViewController.h; sourceTree = "<group>"; };
+		311B633E1AE071C000283E45 /* JKRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRootViewController.m; sourceTree = "<group>"; };
+		311B633F1AE071C000283E45 /* JKRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JKRootViewController.xib; sourceTree = "<group>"; };
+		311B63421AE0727100283E45 /* NSDate+Semantic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Semantic.h"; sourceTree = "<group>"; };
+		311B63431AE0727100283E45 /* NSDate+Semantic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Semantic.m"; sourceTree = "<group>"; };
+		E0BC70D37DEFDABF93379B4F /* libPods-NSDate-SemanticTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NSDate-SemanticTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F944C15679629E930D517EAF /* Pods-NSDate-SemanticTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSDate-SemanticTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NSDate-SemanticTests/Pods-NSDate-SemanticTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		311B63111AE06F9E00283E45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		311B632A1AE06F9E00283E45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3972F4876298B2A7581379DA /* libPods-NSDate-SemanticTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F4ADBBEDFBDFEC097255771 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F944C15679629E930D517EAF /* Pods-NSDate-SemanticTests.debug.xcconfig */,
+				13DE8EE6CAAA5A8964458EF8 /* Pods-NSDate-SemanticTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		311B630B1AE06F9E00283E45 = {
+			isa = PBXGroup;
+			children = (
+				311B63161AE06F9E00283E45 /* NSDate-Semantic */,
+				311B63301AE06F9E00283E45 /* NSDate-SemanticTests */,
+				311B63151AE06F9E00283E45 /* Products */,
+				1F4ADBBEDFBDFEC097255771 /* Pods */,
+				670A561FB4AC4312AEF5BF37 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		311B63151AE06F9E00283E45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				311B63141AE06F9E00283E45 /* NSDate-Semantic.app */,
+				311B632D1AE06F9E00283E45 /* NSDate-SemanticTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		311B63161AE06F9E00283E45 /* NSDate-Semantic */ = {
+			isa = PBXGroup;
+			children = (
+				311B631B1AE06F9E00283E45 /* JKAppDelegate.h */,
+				311B631C1AE06F9E00283E45 /* JKAppDelegate.m */,
+				311B63421AE0727100283E45 /* NSDate+Semantic.h */,
+				311B63431AE0727100283E45 /* NSDate+Semantic.m */,
+				311B633D1AE071C000283E45 /* JKRootViewController.h */,
+				311B633E1AE071C000283E45 /* JKRootViewController.m */,
+				311B633F1AE071C000283E45 /* JKRootViewController.xib */,
+				311B63241AE06F9E00283E45 /* Images.xcassets */,
+				311B63261AE06F9E00283E45 /* LaunchScreen.xib */,
+				311B63171AE06F9E00283E45 /* Supporting Files */,
+			);
+			path = "NSDate-Semantic";
+			sourceTree = "<group>";
+		};
+		311B63171AE06F9E00283E45 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				311B63181AE06F9E00283E45 /* Info.plist */,
+				311B63191AE06F9E00283E45 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		311B63301AE06F9E00283E45 /* NSDate-SemanticTests */ = {
+			isa = PBXGroup;
+			children = (
+				311B63331AE06F9E00283E45 /* NSDate_SemanticTests.m */,
+				311B63311AE06F9E00283E45 /* Supporting Files */,
+			);
+			path = "NSDate-SemanticTests";
+			sourceTree = "<group>";
+		};
+		311B63311AE06F9E00283E45 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				311B63321AE06F9E00283E45 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		670A561FB4AC4312AEF5BF37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0BC70D37DEFDABF93379B4F /* libPods-NSDate-SemanticTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		311B63131AE06F9E00283E45 /* NSDate-Semantic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 311B63371AE06F9E00283E45 /* Build configuration list for PBXNativeTarget "NSDate-Semantic" */;
+			buildPhases = (
+				311B63101AE06F9E00283E45 /* Sources */,
+				311B63111AE06F9E00283E45 /* Frameworks */,
+				311B63121AE06F9E00283E45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSDate-Semantic";
+			productName = "NSDate-Semantic";
+			productReference = 311B63141AE06F9E00283E45 /* NSDate-Semantic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		311B632C1AE06F9E00283E45 /* NSDate-SemanticTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 311B633A1AE06F9E00283E45 /* Build configuration list for PBXNativeTarget "NSDate-SemanticTests" */;
+			buildPhases = (
+				25FA52E444D2B67B638A3981 /* Check Pods Manifest.lock */,
+				311B63291AE06F9E00283E45 /* Sources */,
+				311B632A1AE06F9E00283E45 /* Frameworks */,
+				311B632B1AE06F9E00283E45 /* Resources */,
+				8722665BB9B5566B5357CA86 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				311B632F1AE06F9E00283E45 /* PBXTargetDependency */,
+			);
+			name = "NSDate-SemanticTests";
+			productName = "NSDate-SemanticTests";
+			productReference = 311B632D1AE06F9E00283E45 /* NSDate-SemanticTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		311B630C1AE06F9E00283E45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JK;
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Jeff Kloosterman";
+				TargetAttributes = {
+					311B63131AE06F9E00283E45 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					311B632C1AE06F9E00283E45 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 311B63131AE06F9E00283E45;
+					};
+				};
+			};
+			buildConfigurationList = 311B630F1AE06F9E00283E45 /* Build configuration list for PBXProject "NSDate-Semantic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 311B630B1AE06F9E00283E45;
+			productRefGroup = 311B63151AE06F9E00283E45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				311B63131AE06F9E00283E45 /* NSDate-Semantic */,
+				311B632C1AE06F9E00283E45 /* NSDate-SemanticTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		311B63121AE06F9E00283E45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				311B63281AE06F9E00283E45 /* LaunchScreen.xib in Resources */,
+				311B63411AE071C000283E45 /* JKRootViewController.xib in Resources */,
+				311B63251AE06F9E00283E45 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		311B632B1AE06F9E00283E45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25FA52E444D2B67B638A3981 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8722665BB9B5566B5357CA86 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NSDate-SemanticTests/Pods-NSDate-SemanticTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		311B63101AE06F9E00283E45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				311B631D1AE06F9E00283E45 /* JKAppDelegate.m in Sources */,
+				311B631A1AE06F9E00283E45 /* main.m in Sources */,
+				311B63441AE0727100283E45 /* NSDate+Semantic.m in Sources */,
+				311B63401AE071C000283E45 /* JKRootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		311B63291AE06F9E00283E45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				311B63461AE0728600283E45 /* JKAppDelegate.m in Sources */,
+				311B63471AE0728900283E45 /* JKRootViewController.m in Sources */,
+				311B63451AE0727100283E45 /* NSDate+Semantic.m in Sources */,
+				311B63341AE06F9E00283E45 /* NSDate_SemanticTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		311B632F1AE06F9E00283E45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 311B63131AE06F9E00283E45 /* NSDate-Semantic */;
+			targetProxy = 311B632E1AE06F9E00283E45 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		311B63261AE06F9E00283E45 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				311B63271AE06F9E00283E45 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		311B63351AE06F9E00283E45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		311B63361AE06F9E00283E45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		311B63381AE06F9E00283E45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "NSDate-Semantic/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		311B63391AE06F9E00283E45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "NSDate-Semantic/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		311B633B1AE06F9E00283E45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F944C15679629E930D517EAF /* Pods-NSDate-SemanticTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NSDate-SemanticTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSDate-Semantic.app/NSDate-Semantic";
+			};
+			name = Debug;
+		};
+		311B633C1AE06F9E00283E45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13DE8EE6CAAA5A8964458EF8 /* Pods-NSDate-SemanticTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NSDate-SemanticTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSDate-Semantic.app/NSDate-Semantic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		311B630F1AE06F9E00283E45 /* Build configuration list for PBXProject "NSDate-Semantic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				311B63351AE06F9E00283E45 /* Debug */,
+				311B63361AE06F9E00283E45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		311B63371AE06F9E00283E45 /* Build configuration list for PBXNativeTarget "NSDate-Semantic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				311B63381AE06F9E00283E45 /* Debug */,
+				311B63391AE06F9E00283E45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		311B633A1AE06F9E00283E45 /* Build configuration list for PBXNativeTarget "NSDate-SemanticTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				311B633B1AE06F9E00283E45 /* Debug */,
+				311B633C1AE06F9E00283E45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 311B630C1AE06F9E00283E45 /* Project object */;
+}
